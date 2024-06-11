@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fa6a076-1ee1-4203-bfad-93f9df50b05b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/entities/Calle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/entities/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/entities/PersonaVulnerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/entities/Ubicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/TestPersonaVulnerable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/entities/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/entities/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2hknAR9vfGoemiidxZ7isUq5fiV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,11 +42,50 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Kevin/Desktop/java_projects/ext_repos/MVC_Practice",
     "onboarding.tips.debug.path": "C:/Users/Kevin/Desktop/java_projects/ext_repos/MVC_Practice/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.TestPersonaVulnerable">
+    <configuration name="TestPersonaVulnerable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestPersonaVulnerable" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersonaVulnerable.personaVulnerableCon2MenoresACargo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestPersonaVulnerable" />
+      <option name="METHOD_NAME" value="personaVulnerableCon2MenoresACargo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestPersonaVulnerable" />
+        <item itemvalue="JUnit.TestPersonaVulnerable.personaVulnerableCon2MenoresACargo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +104,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/domain/TestPersonaVulnerable.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
