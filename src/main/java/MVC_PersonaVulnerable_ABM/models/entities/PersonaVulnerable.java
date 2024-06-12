@@ -16,6 +16,7 @@ public class PersonaVulnerable {
     private Ubicacion domicilio;
     private Integer documento;
     private List<Persona> menoresACargo;
+    private Long id;
 
     public PersonaVulnerable(String nombre, LocalDate fechaNacimiento) {
         this.nombre = nombre;
