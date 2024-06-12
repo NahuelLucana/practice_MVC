@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9fa6a076-1ee1-4203-bfad-93f9df50b05b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/repositories/implementation/PersonasVulnerableRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/repositories/implementation/PersonasVulnerableRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/TestRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/TestDAOsPersonaVulnerable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/TestDAOsPersonaVulnerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/TestsPersonaVulnerableRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,75 +49,12 @@
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestDAOsPersonaVulnerable">
-    <configuration name="TestDAOsPersonaVulnerable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MVC_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.TestDAOsPersonaVulnerable" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.TestDAOsPersonaVulnerable" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDAOsPersonaVulnerable.buscarTodasLasPersonasVulnerables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MVC_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.TestDAOsPersonaVulnerable" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.TestDAOsPersonaVulnerable" />
-      <option name="METHOD_NAME" value="buscarTodasLasPersonasVulnerables" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDAOsPersonaVulnerable.buscarUnaPersonaVulnerableMedianteElID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MVC_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.TestDAOsPersonaVulnerable" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.TestDAOsPersonaVulnerable" />
-      <option name="METHOD_NAME" value="buscarUnaPersonaVulnerableMedianteElID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDAOsPersonaVulnerable.removerPersonaVulnerable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MVC_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.TestDAOsPersonaVulnerable" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.TestDAOsPersonaVulnerable" />
-      <option name="METHOD_NAME" value="removerPersonaVulnerable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestsPersonaVulnerableRepository">
     <configuration name="TestPersonaVulnerable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MVC_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.TestDAOsPersonaVulnerable" />
+          <option name="PATTERN" value="domain.TestsPersonaVulnerableRepository" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,13 +65,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestsPersonaVulnerableRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.TestsPersonaVulnerableRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestsPersonaVulnerableRepository" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsPersonaVulnerableRepository.buscarTodasLasPersonasVulnerables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.TestsPersonaVulnerableRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestsPersonaVulnerableRepository" />
+      <option name="METHOD_NAME" value="buscarTodasLasPersonasVulnerables" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsPersonaVulnerableRepository.buscarUnaPersonaVulnerableMedianteElID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.TestsPersonaVulnerableRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestsPersonaVulnerableRepository" />
+      <option name="METHOD_NAME" value="buscarUnaPersonaVulnerableMedianteElID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsPersonaVulnerableRepository.removerPersonaVulnerable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.TestsPersonaVulnerableRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestsPersonaVulnerableRepository" />
+      <option name="METHOD_NAME" value="removerPersonaVulnerable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDAOsPersonaVulnerable" />
-        <item itemvalue="JUnit.TestDAOsPersonaVulnerable.buscarUnaPersonaVulnerableMedianteElID" />
-        <item itemvalue="JUnit.TestDAOsPersonaVulnerable.buscarTodasLasPersonasVulnerables" />
+        <item itemvalue="JUnit.TestsPersonaVulnerableRepository" />
+        <item itemvalue="JUnit.TestsPersonaVulnerableRepository.buscarUnaPersonaVulnerableMedianteElID" />
+        <item itemvalue="JUnit.TestsPersonaVulnerableRepository.buscarTodasLasPersonasVulnerables" />
         <item itemvalue="JUnit.TestPersonaVulnerable" />
-        <item itemvalue="JUnit.TestDAOsPersonaVulnerable.removerPersonaVulnerable" />
+        <item itemvalue="JUnit.TestsPersonaVulnerableRepository.removerPersonaVulnerable" />
       </list>
     </recent_temporary>
   </component>
@@ -160,9 +158,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/domain/TestDAOsPersonaVulnerable.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/domain/TestsPersonaVulnerableRepository.java</url>
           <line>55</line>
-          <properties class="domain.TestDAOsPersonaVulnerable" method="buscarTodasLasPersonasVulnerables">
+          <properties class="domain.TestsPersonaVulnerableRepository" method="buscarTodasLasPersonasVulnerables">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
