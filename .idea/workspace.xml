@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fa6a076-1ee1-4203-bfad-93f9df50b05b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/controllers/PersonaVulnerableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/services/dtos/inputs/PersonaVulnerableInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/services/dtos/outputs/PersonaVulnerableOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/services/implementations/PersonaVulnerableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/services/interfaces/IPersonaVulnerableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/TestPersonaVulnerableService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/TestDAOsPersonaVulnerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/TestsPersonaVulnerableRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/repositories/DAOs/persistencePlaces/DAOMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/repositories/DAOs/persistencePlaces/DAOMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/repositories/implementation/PersonasVulnerableRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_PersonaVulnerable_ABM/models/repositories/implementation/PersonasVulnerableRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,18 +57,34 @@
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestsPersonaVulnerableRepository">
-    <configuration name="TestPersonaVulnerable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestPersonaVulnerableService">
+    <configuration name="TestPersonaVulnerableService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MVC_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.TestsPersonaVulnerableRepository" />
+          <option name="PATTERN" value="domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.TestPersonaVulnerable" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestPersonaVulnerableService" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersonaVulnerableService.validarOutputDTOCrear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.TestPersonaVulnerableService" />
+      <option name="METHOD_NAME" value="validarOutputDTOCrear" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,29 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsPersonaVulnerableRepository.removerPersonaVulnerable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MVC_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.TestsPersonaVulnerableRepository" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.TestsPersonaVulnerableRepository" />
-      <option name="METHOD_NAME" value="removerPersonaVulnerable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPersonaVulnerableService" />
+        <item itemvalue="JUnit.TestPersonaVulnerableService.validarOutputDTOCrear" />
         <item itemvalue="JUnit.TestsPersonaVulnerableRepository" />
         <item itemvalue="JUnit.TestsPersonaVulnerableRepository.buscarUnaPersonaVulnerableMedianteElID" />
         <item itemvalue="JUnit.TestsPersonaVulnerableRepository.buscarTodasLasPersonasVulnerables" />
-        <item itemvalue="JUnit.TestPersonaVulnerable" />
-        <item itemvalue="JUnit.TestsPersonaVulnerableRepository.removerPersonaVulnerable" />
       </list>
     </recent_temporary>
   </component>

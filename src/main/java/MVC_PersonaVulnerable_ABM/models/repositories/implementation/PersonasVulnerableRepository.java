@@ -26,7 +26,6 @@ public class PersonasVulnerableRepository implements IPersonaVulnerableRepositor
     @Override
     public Optional<PersonaVulnerable> buscar(Long id) {
         return repositoryDAO.buscar(id);
-
     }
     @Override
     public List<PersonaVulnerable> buscarTodos(){

@@ -27,7 +27,7 @@ public class DAOMemory implements IPersonaVulnerableDAO {
     }
     @Override
     public void guardar(PersonaVulnerable personaVulnerable){
-        personaVulnerable.setId((long) (this.personasVulnerables.size() + 1));
+        personaVulnerable.setId((long) (this.personasVulnerables.size() + 1)); //Aca un efecto de lado hacia la personaVulnerable donde se le setea el id;
         this.personasVulnerables.add(personaVulnerable);
     }
     @Override
