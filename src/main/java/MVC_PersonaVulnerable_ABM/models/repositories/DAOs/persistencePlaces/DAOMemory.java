@@ -27,10 +27,8 @@ public class DAOMemory implements IPersonaVulnerableDAO {
     }
     @Override
     public void guardar(PersonaVulnerable personaVulnerable){
-        System.out.println("Ejecutnado el metodo guardar() del DAO...");
         personaVulnerable.setId((long) (this.personasVulnerables.size() + 1)); //Aca un efecto de lado hacia la personaVulnerable donde se le setea el id;
         this.personasVulnerables.add(personaVulnerable);
-        System.out.println("Finaliza el guardado de la persona vulnerable correctamente en el DAO : "+ personaVulnerable.getNombre());
     }
     @Override
     public void modificar(PersonaVulnerable personaVulnerable){

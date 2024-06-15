@@ -14,7 +14,6 @@ public class PersonaVulnerableController {
         this.personaVulnerableService = service;
     }
     public Object crear(Object solicitud) {
-        System.out.println("Ejecutando el crear() del controller.....");
         //En la sigueinte línea se debería hacer el mapeo real entre el verdadero input y el DTO
         PersonaVulnerableInputDTO dto = (PersonaVulnerableInputDTO) solicitud;
         return this.personaVulnerableService.crear(dto);

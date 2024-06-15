@@ -34,9 +34,7 @@ public class PersonasVulnerableRepository implements IPersonaVulnerableRepositor
     //En estos metodos se puede ver el transpaso de los Domain Model Objects hacia el repositorio(parametro)
     @Override
     public void guardar(PersonaVulnerable personaVulnerable){
-        System.out.println("Ejecutando el guardar() del repositorio para guardar a la persona vulnerable...");
         repositoryDAO.guardar(personaVulnerable);
-        System.out.println("Finaliza el metodo guardar() del repositorio.");
     }
     @Override
     public void modificar(PersonaVulnerable personaVulnerable){

@@ -10,8 +10,7 @@ import MVC_PersonaVulnerable_ABM.services.interfaces.IPersonaVulnerableService;
 
 import java.time.LocalDate;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     private PersonaVulnerableOutputDTO outputDTO;
     public static void main(String[] args) {
