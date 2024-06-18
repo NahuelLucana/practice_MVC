@@ -5,4 +5,5 @@ import MVC_PersonaVulnerable_ABM.services.dtos.outputs.PersonaVulnerableOutputDT
 
 public interface IPersonaVulnerableService {
     PersonaVulnerableOutputDTO crear(PersonaVulnerableInputDTO persona);
+    boolean eliminar(PersonaVulnerableInputDTO persona);
 }

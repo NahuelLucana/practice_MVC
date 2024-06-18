@@ -10,4 +10,5 @@ import java.time.LocalDate;
 public class PersonaVulnerableInputDTO {
     String nombre;
     LocalDate nacimiento;
+    Long id;
 }
